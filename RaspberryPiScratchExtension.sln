@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaspberryPiScratchWebServer", "RaspberryPiScratchWebServer\RaspberryPiScratchWebServer.csproj", "{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortForwarder", "PortForwarder\PortForwarder.csproj", "{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Debug|ARM.Build.0 = Debug|ARM
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Debug|ARM.Deploy.0 = Debug|ARM
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Debug|x64.ActiveCfg = Debug|x64
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Debug|x64.Build.0 = Debug|x64
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Debug|x64.Deploy.0 = Debug|x64
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Debug|x86.ActiveCfg = Debug|x86
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Debug|x86.Build.0 = Debug|x86
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Debug|x86.Deploy.0 = Debug|x86
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Release|Any CPU.ActiveCfg = Release|x86
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Release|ARM.ActiveCfg = Release|ARM
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Release|ARM.Build.0 = Release|ARM
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Release|ARM.Deploy.0 = Release|ARM
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Release|x64.ActiveCfg = Release|x64
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Release|x64.Build.0 = Release|x64
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Release|x64.Deploy.0 = Release|x64
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Release|x86.ActiveCfg = Release|x86
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Release|x86.Build.0 = Release|x86
+		{7EE47CA9-EC83-4E8F-9CDE-28EE44D39BC5}.Release|x86.Deploy.0 = Release|x86
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Debug|x64.Build.0 = Debug|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Debug|x86.Build.0 = Debug|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Release|ARM.Build.0 = Release|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Release|x64.ActiveCfg = Release|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Release|x64.Build.0 = Release|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB0BEAA0-3C93-4BD5-B424-6084B45BDF7B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://funkinessfactor.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RaspberryPiScratchWebServer\\RaspberryPiScratchWebServer.csproj
+		SccProjectName1 = RaspberryPiScratchWebServer
+		SccLocalPath1 = RaspberryPiScratchWebServer
+		SccProjectUniqueName2 = PortForwarder\\PortForwarder.csproj
+		SccProjectName2 = PortForwarder
+		SccLocalPath2 = PortForwarder
+	EndGlobalSection
+EndGlobal

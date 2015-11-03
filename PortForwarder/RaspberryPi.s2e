@@ -1,0 +1,53 @@
+﻿{
+    "extensionName": "s2r_fm - Scratch to RaspberryPi",
+    "extensionPort": 50210,
+    "url": "https://www.hackster.io/graham_chow",
+    "blockSpecs": [
+        [
+            "b",
+            "Read input pin %n",
+            "i",
+            "PIN"
+        ],
+        [
+            "b",
+            "Read input pin %n",
+            "o",
+            "PIN"
+        ],
+        [
+            "r",
+            "Get Ultrasonic Distance",
+            "d"
+        ],
+        [
+            "",
+            "Set output pin %n to %b",
+            "output",
+            "PIN",
+            0
+        ],
+        [
+            "",
+            "Set motor %n mode to %m.motor_direction",
+            "md",
+            0,
+            "Stopped"
+        ],
+        [
+            "",
+            "Set motor %n power to %n (0..6)",
+            "mp",
+            0,
+            3
+        ]
+    ],
+    "menus": {
+        "motor_direction": [
+            "Stopped",
+            "Forward",
+            "Reverse"
+        ]
+    }
+
+}
